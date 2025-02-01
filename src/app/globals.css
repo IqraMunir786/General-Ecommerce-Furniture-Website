@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.social-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Uniform size */
+    height: 40px;
+    font-size: 20px; /* Ensure font size consistency */
+    text-align: center;
+    border-radius: 50%; /* Circular buttons */
+    color: white;
+    background-color: #0077b5; /* Default background */
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .social-btn:hover {
+    background-color: #005580; /* Change on hover */
+  }
+  
+  .linkedin { background-color: #0077b5; }
+  .facebook { background-color: #4267B2; }
+  .twi { background-color: #1DA1F2; }
